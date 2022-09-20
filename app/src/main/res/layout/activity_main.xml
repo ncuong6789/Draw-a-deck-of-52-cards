@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:text="@string/hello" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="italic"
+
+        android:text="\tChơi bài cào thôii !!!!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/rutbai"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        android:text="Rút Bài" />
+
+    <ImageView
+        android:id="@+id/ivlabai1"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:src="@drawable/b2fv" />
+
+    <ImageView
+        android:id="@+id/ivlabai2"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:src="@drawable/b2fv" />
+
+    <ImageView
+        android:id="@+id/ivlabai3"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:src="@drawable/b2fv"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/txtthongbao"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="@string/txtthongbao"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+</LinearLayout>
